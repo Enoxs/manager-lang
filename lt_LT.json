@@ -1,0 +1,82 @@
+{
+
+    "lang_version":     2,
+    "lang_revision":    "dev0",
+    "lang_name":        "Lithuania",
+    "lang_short":       "lt_LT",
+
+    "shared": {
+
+        "errorGeneric":         "Kažkas įvyko neteisingai.",
+        "errorNoPermission":    "Jūs neturite leidimo.",
+        "errorConfigNotFound":  "Kažkas įvyko su serverio nustatymais.",
+
+		"configFlushed":		"Serverio talpykla $1 buvo perkrauta.",
+		"errorShutdownGrace":	"Atsiprašome , bet šį veiksmą galėsite atlikti tik po poros minučių."
+
+    },
+
+    "channel": {
+
+        "dataFetching":         ":black_circle: Atnaujinama informacija...",
+        "dataCreating":         ":black_circle: Kuriamas kanalas...",
+        "roomCreated":          ":large_blue_circle: Jūsų kanalas sukurtas!",
+        "roomAlreadyExists":    ":warning: Jūs jau turite savo laikiną kanalą!",
+        "roomRevoked":          ":large_blue_circle: Kanalas ištrintas!",
+        "roomRevokedInactive":  "Jūsų kanalas buvo pašalintas, nes nebuvo aktyvus jį galite vėl sukurti su komanda `$1`",
+        "roomName":             "Privatus kambarys [$1]",
+        "roomErrorDisabled":    "Private rooms are disabled on this server.",
+        "roomErrorLimit":       "Atsiprašome , bet šiuo metu sukurti kanalo negalite.",
+        "roomErrorNotAllowed":  "Jūs šiuo metu sukurti kanalo negalite.",
+
+        "roomRenamed":          "Kanalas buvo pervadintas į: `$1`",
+        "roomRenameDisabled":   "Jūs negalite pervadinti savo kanalo.",
+        "roomNoNameSpecified":  "Įrašykite kanalo pavadinimą!",
+
+        "revokeComplete":       ":cyclone: Kanalas buvo pašalintas!",
+        "revokeError":          ":no_good: Kanalo pašalinti negalime.",
+        "revokeNotGuild":        "Jūs tik savo kanalą galite pašalinti.",
+        "revokeNoRoom":         ":warning: Jūs neturite kanalo!",
+
+        "roomUserAdded":        "Dalyvis vardu $1 buvo pridėtas į jūsų kanalą.",
+        "roomUserRemoved":      "Dalyvis vardu $1 buvo pašalintas iš jūsų kanalo.",
+        "roomUserBlocked":      "Dalyvis vardu $1 buvo užblokuotas.",
+        "roomNoAdded":			"Jokių pasikeitimų neįvyko.",
+        "roomMadePublic":       "Dabar visi gali prisijungti į jūsų kanalą.",
+        "roomNotPublic":        "Tik pridėti dalyviai gali prisijungti į jūsų kanalą.",
+
+        "userWhitelistAdd":     "$1 dabar yra baltajame sąraše.",
+        "userWhitelistRevoke":  "$1 buvo pašalintas iš juodojo sąrašo.",
+        "userWhitelistReset":   "Jūsų baltasis sąrašas buvo perkrautas.",
+        "userBlacklistAdd":     "$1 dabar yra juodojame sąraše.",
+        "userBlacklistRevoke":  "$1 buvo pašalintas iš juodojo sąrašo.",
+        "userBlacklistReset":   "Jūsų juodasis sąrašas buvo perkrautas.",
+
+        "errorRoomsDisabled":   "Privatūs kanalai čia yra išjungti.",
+        "errorNotGuild":        "Kanalai gali būti sukurti tik serveryje."
+    },
+
+    "music": {
+
+        "MusicNoURL":           ":warning: Jums reikia įrašyti teisingai URL adresą!",
+        "MusicNovoiceCon":      ":warning: Jūs turite būti pokalbyje!",
+        "MusicNoPermission":    "Jūs neturite leidimo.",
+
+        "MusicDifferentChannel":"Jūs turite pirma būti kanale.",
+        "MusicVoteProgress":    "Jūs prabalsavote dėl dainos praleidimo `$1`",
+        "MusicVoteAlreadyVoted":"Jau prabalsavote dėl dainos praleidimo `$1`",
+        "MusicVoteCompleted":   "Dabartinė daina buvo praleista. `$1`",
+
+        "MusicAddedToQueue":    "Pridėta `$1` į sąrašą.",
+        "MusicNowPlaying":      "Dabar groja",
+        "MusicRequestedBy":     "Pridėjo",
+        "MusicVideoLength":     "Trukmė",
+
+        "errorGeneric":         "Kažkas įvyko.",
+        "errorConfigNotFound":  "Kažkas įvyko bandant atnaujinti informaciją.",
+        "errorMusicDisabled":   "Muzikos čia yra išjungta.",
+        "errorNotGuild":        "Čia muzikos pajungti negalite."
+
+    }
+
+}
